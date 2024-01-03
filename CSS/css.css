@@ -1,0 +1,233 @@
+
+
+/* ----------------------------------------------FRONT PAGE OF WEBSITE-------------------------------------------------- */
+
+/* Final Video Styles */
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.flexbox-item {
+  width: 500px;
+  margin: 10px;
+  /* border: 3px solid white; */
+  border: 3px solid black;
+  /* background-color: #dfdfdf; */
+}
+
+
+.flexbox-item-1 {
+    min-height: 100px;
+    margin-top: 3%;
+    padding: 8%;
+  /* flex-grow: 1; */
+  /* flex: 1 0 0; */
+  /* flex-shrink: 0; */
+  /* align-self: flex-end; */
+  /* order: 3; */
+}
+
+
+/* Responsive Full Background Image Using CSS
+ * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
+*/
+
+/* FONTS */
+@font-face {
+  font-family: myFirstFont;
+  src: url(../Fonts/Sansation_Light.ttf);
+}
+
+.c-body {
+  /* Location of the image */
+  background-image: url(../Images/pexels-fauxels-3183198.jpg);
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+
+/* FOR MOBILE DEVICES------------------------------------- */
+@media only screen and (max-width: 767px) {
+  .c-body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(../Images/pexels-fauxels-3183198.jpg);
+    margin-top: 20%;
+  }
+
+  .Button1 h1, h3{
+    color: black;
+    margin-top: 10%;
+    text-align: center;
+    font-size: small;
+    font-family: myFirstFont;
+
+  }
+
+  .flexbox-item {
+    width: 500px;
+    margin: 10px;
+    padding-top: 40%;
+    /* border: 3px solid white; */
+    border: 3px solid black;
+    border-radius: 5%;
+    /* background-color: #dfdfdf; */
+  }
+
+  .flexbox-item-1 {
+    min-height: 500px;
+    margin-top: 10%;
+  /* flex-grow: 1; */
+  /* flex: 1 0 0; */
+  /* flex-shrink: 0; */
+  /* align-self: flex-end; */
+  /* order: 3; */
+}
+
+.Button1 {
+  margin-left: -12%;
+ }
+
+	}
+  /* END OF MOBILE DEVICES----------------------------------- */
+
+  /* FOR MOBILE TABLET AND PC DEVICES------------------------------------- */
+  @media only screen and (min-width: 767px){
+  
+    .c-body {
+      /* The file size of this background image is 93% smaller
+       * to improve page load speed on mobile internet connections */
+      background-image: url(../Images/pexels-fauxels-3183198.jpg);
+      margin-top: 4%;
+    }
+
+    .flexbox-item {
+      width: 500px;
+      margin: 10px;
+      /* border: 3px solid white; */
+      border: 3px solid black;
+      border-radius: 5%;
+      /* background-color: #dfdfdf; */
+    }
+
+    .flexbox-item-1 h1{
+      color: black;
+      text-align: center;
+      font-size: xx-large;
+      font-family: myFirstFont;
+    }
+  
+    .flexbox-item-1 h3{
+      color: black;
+      text-align: center;
+      font-size: x-large;
+      font-family: myFirstFont;
+    }
+  
+    .Button1 ul {
+      list-style-type: none;
+      /* background-color: white; */
+      display: block;
+      /* text-align: center; */
+      text-decoration: none;
+      width: 100px;
+    }
+    
+    .Button1 li {
+      font-family: myFirstFont;
+      text-align: center;
+    }
+    
+    .Button1 li a {
+      display: block;
+      /* margin-right: 15%; */
+      color: white;
+      margin-left: -47%;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .Button1 li a:hover {
+      /* background-color: #daccbf; */
+      color: white;
+    }
+
+  }
+    /* END OF MOBILE TABLET AND PC DEVICES----------------------------------- */
+
+.flexbox-item {
+      width: 500px;
+      margin: 10px;
+      /* border: 3px solid white; */
+      border: 3px solid black;
+      border-radius: 5%;
+      /* background-color: #dfdfdf; */
+    }
+
+
+  .flexbox-item-1 h1{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: myFirstFont;
+  }
+
+  .flexbox-item-1 h3{
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    font-family: myFirstFont;
+  }
+
+  .Button1 ul {
+   margin-left: 35%;
+    list-style-type: none;
+    background-color: black;
+    display: block;
+    /* text-align: center; */
+    text-decoration: none;
+    width: 100px;
+  }
+  
+  .Button1 li {
+    font-family: myFirstFont;
+    text-align: center;
+  }
+  
+  .Button1 li a {
+    display: block;
+    color: white;
+    /* margin-right: 15%; */
+    margin-left: -47%;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .Button1 li a:hover {
+    /* background-color: #daccbf; */
+    color: white;
+  }
+    
+  
+
+/* --------------------------------------------------END OF FRONT PAGE------------------------------------------------- */
